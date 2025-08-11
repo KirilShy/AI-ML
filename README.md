@@ -22,8 +22,6 @@ A tiny convolutional neural network that hits **~98.28% test accuracy** on the c
 
 **Results**
 - Test accuracy: **98.28%**
-- (Optional) Preview:  
-  ![Predictions grid](images/pred_grid.png)
 
 ---
 
