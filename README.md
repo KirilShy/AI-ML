@@ -8,7 +8,7 @@ A tiny convolutional neural network that hits **~98.28% test accuracy** on the c
 
 ## Dataset
 We use the **MNIST Handwritten Digits** dataset (60,000 training + 10,000 test images).  
-📂 Download from: [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)  
+📂 Download from: https://www.kaggle.com/datasets/hojjatk/mnist-dataset
 Or load directly via TensorFlow/Keras:  
 ```python
 from tensorflow.keras.datasets import mnist
