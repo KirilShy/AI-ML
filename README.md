@@ -6,6 +6,17 @@ A tiny convolutional neural network that hits **~98.28% test accuracy** on the c
 
 ---
 
+## Dataset
+We use the **MNIST Handwritten Digits** dataset (60,000 training + 10,000 test images).  
+📂 Download from: [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)  
+Or load directly via TensorFlow/Keras:  
+```python
+from tensorflow.keras.datasets import mnist
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+```
+
+---
+
 ## What’s inside
 
 **Architecture**
@@ -34,3 +45,4 @@ Use the badge above. The notebook contains all steps end-to-end.
 ```bash
 pip install -r requirements.txt
 # then open and run mnist_project.ipynb (Jupyter/VS Code)
+```
